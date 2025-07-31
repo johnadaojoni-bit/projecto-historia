@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@font-face{
+ font-family:"Android";
+ src:url("/fontes/idroid.otf") format("opentype"); font-weight: normal; 
+}
+
+
+:root{
+    ––cor0: #7fffd4
+    ––cor1  #6595ed
+    ––cor2  #0000ff
+    ––cor3  #00008b
+    
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0000ff;
+} 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #c6d5f1;
+    text-indent: 5px;
+    
+}
+
+header > h1 {
+    color:#00008b ;
+    min-width: 150px;
+    text-align:center ;
+    margin-top: 30px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+header > p {
+    font-family:'Times New Roman', Times, serif;
+    color:#00008b;
+    font-size: 1.2em ;
+    background-image: linear-gradient(to bottom, );
+    
+    
+}
+
+nav {
+    background-color:#6595ed;
+    color:#6595ed;
+    padding: 10px;
+    font-size:medium;
+    font-weight: bold;
+    
+}
+nav > a:hover {
+    background-color: cadetblue;
+} 
+nav > a {
+    color:#0000ff;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-decoration: 0.5s ;
+}
+header {
+    background-color: #6595ed;
+    text-align: center;
+    
+}
+main {
+    background-color: white;
+
+    min-width: 100px;
+    max-width: 1200px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+main h1 {
+    color: rgb(9, 9, 59);
+}
+footer {
+    background-color: #6595ed;
+    color: #0000ff;
+}
+aside{
+    background-color: #7474f5;
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+div.video {
+    background-color:#0000ff ;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 55%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top:5% ;
+    left:5%;
+    width:90%;
+    height:90%;
+}
+
+aside > h3 {
+    background-color: #6595ed;
+    padding: 20px;
+    margin: -10px -10px 0px -20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main img {
+    width: 100%;
+}
+main img.pequena {
+    width: 30%;
+    display: block;
+    margin: auto;
+    
+
+}
+footer {
+    text-align: center;
+    padding: 5px;
+}
